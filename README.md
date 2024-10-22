@@ -12,18 +12,8 @@ Liskov Substitution: InMemoryTaskRepository se comporta como cualquier implement
 Dependency Inversion: La capa de aplicación depende de abstracciones (TaskRepository), no de implementaciones concretas..task-manager/EstE
 
 Estructura del proyecto:
-│
-├── src/
-│   ├── application/           # Capa de aplicación
-│   │   └── TaskController.js
-│   ├── domain/                # Capa de dominio
-│   │   ├── Task.js
-│   │   └── TaskRepository.js
-│   │   └── TaskService.js
-│   ├── infrastructure/        # Capa de infraestructura
-│   │   └── InMemoryTaskRepository.js
-│   └── server.js              # Configuración del servidor
-└── package.json               # Dependencias y configuración del proyecto
+![image](https://github.com/user-attachments/assets/db2b34ad-0092-4bcc-8e10-b2f72bc22ee1)
+
 
 Ejecuta el servidor:
 node src/server.j
