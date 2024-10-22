@@ -9,7 +9,7 @@ Principios SOLID:
 Single Responsibility: Cada clase tiene una sola responsabilidad.
 Open/Closed Principle: Puedes extender el repositorio para almacenar las tareas en una base de datos sin modificar el resto del sistema.
 Liskov Substitution: InMemoryTaskRepository se comporta como cualquier implementación de TaskRepository.
-Dependency Inversion: La capa de aplicación depende de abstracciones (TaskRepository), no de implementaciones concretas..task-manager/EstE
+Dependency Inversion: La capa de aplicación depende de abstracciones (TaskRepository), no de implementaciones concretas.
 
 Estructura del proyecto:
 ![image](https://github.com/user-attachments/assets/db2b34ad-0092-4bcc-8e10-b2f72bc22ee1)
